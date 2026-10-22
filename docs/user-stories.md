@@ -8,7 +8,7 @@
     Acceptance criteria:
     - Clicking "Export Report" compiles the uploaded image, breed result, and skin condition risk levels into a standardized, downloadable PDF.
     - The exported report contains a clear medical disclaimer stating that AI findings are preliminary visual screening indicators, not final clinical diagnoses.
-3. As a administrator, I want to remove fake or duplicate listings, so that buyers can trust the app. (FR3)
+3. As an animal shelter staff member, I want to upload photos of newly rescued stray cats, so that I can automatically classify their breed and screen them for contagious skin conditions like ringworm during intake. (FR2)
     Acceptance criteria:
-    - A listing I remove disappears from the car list immediately.
-    - The seller sees the reason why the listing was removed.
+    - Uploading a rescue cat's picture returns its predicted breed and top confidence scores within 3 seconds.
+    - If a contagious skin condition (e.g., ringworm) is flagged at high probability, the system displays an instant quarantine recommendation alert.
