@@ -1,9 +1,9 @@
 # User Stories
 
-1. As a cat owner, I want to upload a photo of my cat, so that I can instantly identify its breed and view visual characteristics. (FR2)
+1. As a cat owner, I want to scan localized skin patches on my cat using my smartphone, so that I can catch early signs of skin infections and receive preliminary care guidance. (FR3)
     Acceptance criteria:
-    - Selecting or capturing an image displays an instant preview before processing.
-    - Submitting a clear image returns the predicted breed name along with percentage confidence levels within 3 seconds.
+    - Uploading a close-up photo of an affected skin area highlights suspected lesion boundaries using visual heatmaps or bounding boxes.
+    - The diagnostic output displays suspected skin conditions ranked by probability score alongside a preliminary risk rating (e.g., Normal, Mild, High Risk).
 2. As a seller, I want to post my car with photos and details, so that buyers can see it and contact me. (FR2)
     Acceptance criteria:
     - I cannot submit until I fill in brand, model, year, price and mileage.
