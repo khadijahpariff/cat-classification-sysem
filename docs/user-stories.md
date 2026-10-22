@@ -1,9 +1,9 @@
 # User Stories
 
-1. As a buyer, I want to filter the car list by brand, price and year, so that I can find a car that fits my budget quickly. (FR1)
+1. As a cat owner, I want to upload a photo of my cat, so that I can instantly identify its breed and view visual characteristics. (FR2)
     Acceptance criteria:
-    - Choosing a brand shows only cars of the brand.
-    - Setting a minimum and maximum price hides every car outside that range.
+    - Selecting or capturing an image displays an instant preview before processing.
+    - Submitting a clear image returns the predicted breed name along with percentage confidence levels within 3 seconds.
 2. As a seller, I want to post my car with photos and details, so that buyers can see it and contact me. (FR2)
     Acceptance criteria:
     - I cannot submit until I fill in brand, model, year, price and mileage.
