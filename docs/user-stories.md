@@ -4,10 +4,10 @@
     Acceptance criteria:
     - Uploading a close-up photo of an affected skin area highlights suspected lesion boundaries using visual heatmaps or bounding boxes.
     - The diagnostic output displays suspected skin conditions ranked by probability score alongside a preliminary risk rating (e.g., Normal, Mild, High Risk).
-2. As a seller, I want to post my car with photos and details, so that buyers can see it and contact me. (FR2)
+2. As a veterinary practitioner, I want clients to share an exported diagnostic PDF summary report, so that I can review their cat's visual history and preliminary risk scores before an in-person consultation. (FR5)
     Acceptance criteria:
-    - I cannot submit until I fill in brand, model, year, price and mileage.
-    - I can upload 1 to 8 photos, each up to 5 MB.
+    - Clicking "Export Report" compiles the uploaded image, breed result, and skin condition risk levels into a standardized, downloadable PDF.
+    - The exported report contains a clear medical disclaimer stating that AI findings are preliminary visual screening indicators, not final clinical diagnoses.
 3. As a administrator, I want to remove fake or duplicate listings, so that buyers can trust the app. (FR3)
     Acceptance criteria:
     - A listing I remove disappears from the car list immediately.
