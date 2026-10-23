@@ -1,7 +1,7 @@
 # Problem Statement
 
 ## Who is affected?
-Cat owners, veterinary practitioners, animal shelter staff, and feline dermatological researchers.
+Cat owners, veterinary practitioners, and animal shelter staff.
 
 ## What exactly is going wrong?
 Pet owners frequently struggle to accurately identify their cat's specific breed and recognize early signs of feline skin conditions (such as dermatophytosis/ringworm, flea allergy dermatitis, or alopecia). Because early dermatological symptoms visually overlap, non-expert owners rely on manual internet searches or delay seeking professional care, leading to disease progression and potential zoonotic transmission to humans or other household pets.
