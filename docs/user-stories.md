@@ -1,14 +1,16 @@
 # User Stories
 
-1. As a cat owner, I want to scan localized skin patches on my cat using my smartphone, so that I can catch early signs of skin infections and receive preliminary care guidance. (FR3)
+1. As a pet adopter, I want to upload a photo of a shelter cat, so that I can learn its predicted breed, background history, and specific grooming requirements. (FR1, FR2, FR3)
     Acceptance criteria:
-    - Uploading a close-up photo of an affected skin area highlights suspected lesion boundaries using visual heatmaps or bounding boxes.
-    - The diagnostic output displays suspected skin conditions ranked by probability score alongside a preliminary risk rating (e.g., Normal, Mild, High Risk).
-2. As a veterinary practitioner, I want clients to share an exported diagnostic PDF summary report, so that I can review their cat's visual history and preliminary risk scores before an in-person consultation. (FR5)
+    - Uploading a clear .jpg or .png cat image displays the predicted breed name and confidence percentage within 5 seconds.
+    - Clicking the prediction result navigates to a detailed view showing breed origin history and grooming guidelines.
+
+2. As a cat owner, I want to upload a close-up picture of my cat's irritated skin patch, so that I can view preliminary screening possibilities and determine if I need an immediate vet visit. (FR4, FR5, FR6)
     Acceptance criteria:
-    - Clicking "Export Report" compiles the uploaded image, breed result, and skin condition risk levels into a standardized, downloadable PDF.
-    - The exported report contains a clear medical disclaimer stating that AI findings are preliminary visual screening indicators, not final clinical diagnoses.
-3. As an animal shelter staff member, I want to upload photos of newly rescued stray cats, so that I can automatically classify their breed and screen them for contagious skin conditions like ringworm during intake. (FR2)
+    - Uploading a close-up lesion image generates a preliminary screening output identifying the closest matching trained skin condition category.
+    - .  Every screening result screen prominently displays a non-deletable disclaimer advising the user to seek professional veterinary examination.
+
+3. As an animal shelter staff member, I want to access general non-prescriptive skin care information based on image screening results, so that I can take safe initial sanitation steps while waiting for veterinary review. (FR5, FR6)
     Acceptance criteria:
-    - Uploading a rescue cat's picture returns its predicted breed and top confidence scores within 3 seconds.
-    - If a contagious skin condition (e.g., ringworm) is flagged at high probability, the system displays an instant quarantine recommendation alert.
+    - The system provides basic, curated hygienic care guidance corresponding to the identified condition category.
+    - The guidance strictly excludes any prescription drug names or specific chemical medication dosages.
